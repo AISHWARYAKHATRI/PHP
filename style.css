@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+#home{
+    position: relative;
+}
+.homepage{
+    background-image: url(brainobrain.jpeg);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;   
+/* z-index will work only for position: relative absolute fixed or sticky.
+ Specifies ek ke upar ek */
+    z-index: -1;   
+} 
+
+.navbar{
+    background-color: black;
+    color: white;
+    border-radius: 2vw;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 0.5vw;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li a{
+    padding: 0vw 1vw;
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+    background:none;
+    padding: 0.45vw 37vw;
+}
+
+#search{
+    width: 80%;
+    margin: 0vw 35vw;
+    display: block;
+    padding: 0.2vw;
+    border-radius: 1vw;
+    border: solid black;
+}
+
+.navbar li a:hover{
+    color: rgb(97, 97, 97);
+    border: 1px solid black;
+    border-radius: 1vw;
+}
+
+
+/* trip */
+
+
+.bg{ 
+    /* background-image: url(space.png); */
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: repeat-y;
+
+}
+.container{
+    max-width: 50%;
+    background-color: #2A2738;
+    color: white;
+    margin: auto;
+    padding: 1vw;
+
+}
+
+.container h2, p{
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+}
+
+input{
+    width: 50%;
+    margin: 1vw auto;
+    display: block;
+    padding: 0.2vw;
+    border-radius: 1vw;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: (162, 252, 26);
+    border: 0.2vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+}
+
+.submitMsg{
+    font-family: 'Orelega One', cursive;
+    font-size: 2vw;
+    color: green;
+    display: none
+}
+
+#form{
+    position: absolute;
+    margin-top: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
